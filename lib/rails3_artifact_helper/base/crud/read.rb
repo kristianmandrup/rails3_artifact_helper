@@ -1,6 +1,7 @@
-module Rails::Assist
-  module BaseHelper         
-    # READ
+module Rails::Assist::CRUD
+  module Read        
+    
+    # TODO: Support :before and :after hash options!
     def read_artifact(name, options, &block)
       type = get_type(options)
       file_name = existing_file_name(name, type)

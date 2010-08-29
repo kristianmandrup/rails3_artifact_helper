@@ -5,7 +5,7 @@ Helpers for handling Rails 3 artifacts in general, such as CRUD operations etc
 ## Install
 
 (pending)
-<code>gem install rails3_artifact_helpers</code>
+<code>gem install rails3_artifact_helper</code>
 
 ## Status
 
